@@ -1,0 +1,27 @@
+{
+  "name": "VibeTrackerPluginMarketplace",
+  "description": "VibeTracker插件市场配置",
+  "owner": {
+    "name": "koree"
+  },
+  "plugins": [
+    {
+      "name": "vibe-tracker-plugin",
+      "description": "端到端自迭代开发插件 - 基于Harness Engineering思想的软件工程自动化系统，包含TDD、调试、协作模式和验证技术",
+      "version": "1.0.1",
+      "source": "./",
+      "author": {
+        "name": "koree",
+        "email": "koreechen111@gmail.com"
+      },
+      "keywords": [
+        "claude-code",
+        "harness-engineering",
+        "agent",
+        "automation",
+        "tracker"
+      ],
+      "license": "MIT"
+    }
+  ]
+}

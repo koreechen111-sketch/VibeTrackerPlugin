@@ -1,0 +1,15 @@
+{
+  "name": "vibetracker",
+  "version": "1.0.0",
+  "hooks": {
+    "session.end": "hooks/session-end.sh",
+    "post-commit": "hooks/post-commit.sh"
+  },
+  "commands": {
+    "vibetracker": "cli/vibetracker.sh"
+  },
+  "dependencies": {
+    "required": ["git", "jq"],
+    "optional": []
+  }
+}
